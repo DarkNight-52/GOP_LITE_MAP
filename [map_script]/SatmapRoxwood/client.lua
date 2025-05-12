@@ -1,6 +1,6 @@
-Citizen.CreateThread(function()
-    ReplaceHudColour(116, 151)
-  end)
+-- Citizen.CreateThread(function()
+--     ReplaceHudColour(116, 151)
+--   end)
 
 -- DO NOT MODIFY!
 vBitmapTileSizeX = 4500.0
