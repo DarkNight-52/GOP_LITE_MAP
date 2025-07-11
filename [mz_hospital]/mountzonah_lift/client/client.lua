@@ -100,7 +100,7 @@ Citizen.CreateThread(function()
 			end
 		end
 		TriggerEvent("MountZonah:Update")
-		Wait(0)
+		Wait(10)
     end
 end)
 
@@ -109,7 +109,7 @@ AddEventHandler("ZONAH:fade", function(timeIn,timeWait,timeOut)
 	Citizen.CreateThread(function()
 		DoScreenFadeOut(timeIn+1)
 		while not IsScreenFadedOut() do
-			Wait(0)
+			Wait(10)
 		end
 		Wait(timeWait+1)
 		DoScreenFadeIn(timeOut+1)
