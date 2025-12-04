@@ -1,0 +1,1 @@
+If you want frozen lake then replace this files in new lake map
